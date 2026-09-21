@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pello — Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #1c2a26; }
+  h1 { font-size: 1.6em; } h2 { font-size: 1.2em; margin-top: 2em; }
+  .updated { color: #666; font-size: 0.9em; }
+  .langbar { margin-bottom: 24px; }
+  .langbar button { font-size: 0.85em; padding: 6px 12px; margin-right: 6px; border: 1px solid #ccc; border-radius: 8px; background: #f4f4f2; cursor: pointer; }
+  .langbar button.active { background: #24544b; color: #fff; border-color: #24544b; }
+  [data-lang-block] { display: none; }
+  [data-lang-block].active { display: block; }
+  a { color: #24544b; }
+</style>
+</head>
+<body>
+<div class="langbar">
+  <button data-lang="en" onclick="setLang('en')">English</button>
+  <button data-lang="tr" onclick="setLang('tr')">Türkçe</button>
+  <button data-lang="es" onclick="setLang('es')">Español</button>
+  <button data-lang="de" onclick="setLang('de')">Deutsch</button>
+</div>
+
+<div data-lang-block="en">
+<h1>Pello — Privacy Policy</h1>
+<p class="updated">Last updated: September 20, 2026</p>
+<p>Pello is a pet care app: one shared timeline of a pet's health and care records, reminders, and an assistant that answers from those records. This page explains what data the app handles, where it is kept, and what you can do about it.</p>
+
+<h2>What the app stores</h2>
+<ul>
+  <li><strong>Your pet's records:</strong> profile (photo, name, species, breed, birthday, sex, weight, allergies, microchip, notes), health and care entries (weight readings, vaccines, medication plans, vet visits, food, activity), and which caregiver logged each one.</li>
+  <li><strong>Your care team:</strong> the names and roles of the caregivers you add, and the invite code that joins them.</li>
+  <li><strong>Preferences:</strong> the language, the reminder times, and whether the daily reminders are on.</li>
+</ul>
+
+<h2>Where it is kept</h2>
+<p>Everything starts on your device. Pello has no account and no server of its own.</p>
+<p>If you turn the iCloud backup on (optional, from the pet tab), your records are also kept in <strong>your own iCloud</strong> through Apple's CloudKit, so they come back on a new phone. There is no Pello account and no password. When you invite a caregiver, CloudKit shares that pet's records with the people you invited, and nobody else. Apple's iCloud terms govern that storage.</p>
+
+<h2>Ask Pello</h2>
+<p>Ask Pello is part of Pello Premium. When you ask a question, the app sends the question, the language, the parts of your pet's records the assistant needs, and a random account identifier to <strong>our proxy</strong> (a Cloudflare Worker) and from there to <strong>Google's Gemini API</strong>, which produces the answer. Nothing that names you or your device is sent beyond that identifier, and the answers are not used for advertising. The proxy keeps no copy of your records.</p>
+
+<h2>Purchases</h2>
+<p>Subscriptions are paid through Apple, and Pello never sees your card or your Apple ID. <strong>RevenueCat</strong> receives the purchase receipt and the account identifier so the app knows whether Premium is active.</p>
+
+<h2>Location, photos, notifications</h2>
+<ul>
+  <li><strong>Location:</strong> only when you search for nearby veterinary clinics. The search is done by Apple Maps (MapKit) with your approximate position, and Pello does not store it.</li>
+  <li><strong>Photos and camera:</strong> only when you pick or take your pet's photo. The photo becomes part of the pet's record.</li>
+  <li><strong>Notifications:</strong> reminders are scheduled on your device. Care-team notifications arrive through Apple's CloudKit, which uses a device token; Pello does not use it for anything else.</li>
+</ul>
+
+<h2>What Pello never does</h2>
+<p>No advertising, no tracking across other apps or websites, no analytics or crash-reporting SDKs, and no selling of data. The app asks for no personal information about you — not even your name, unless you type it as a caregiver's name.</p>
+
+<h2>Your choices and deleting data</h2>
+<p>You can delete individual records in the app (open a record, then Delete). Removing a pet removes its records from the device. If you turned the iCloud backup on, the copy in your iCloud can be removed in iOS Settings → your Apple ID → iCloud → Manage Account Storage → Pello. Deleting the app removes everything it kept on the phone. To have anything we hold about you removed, write to us and we will do it.</p>
+
+<h2>Children</h2>
+<p>Pello is not directed at children under 13 and does not knowingly collect data from them.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes in a way that matters, the app or the App Store listing will say so.</p>
+
+<h2>Contact</h2>
+<p>Questions about privacy: <a href="mailto:alparslann95@gmail.com">alparslann95@gmail.com</a></p>
+</div>
+
+<div data-lang-block="tr">
+<h1>Pello — Gizlilik Politikası</h1>
+<p class="updated">Son güncelleme: 20 Eylül 2026</p>
+<p>Pello bir evcil hayvan bakım uygulamasıdır: pet'in sağlık ve bakım kayıtlarının tek ortak zaman akışı, hatırlatıcılar ve bu kayıtlardan yanıt veren bir asistan. Bu sayfa, uygulamanın hangi verileri işlediğini, nerede sakladığını ve ne yapabileceğinizi açıklar.</p>
+
+<h2>Uygulamanın sakladıkları</h2>
+<ul>
+  <li><strong>Pet'inizin kayıtları:</strong> profil (fotoğraf, ad, tür, cins, doğum günü, cinsiyet, kilo, alerjiler, mikroçip, notlar), sağlık ve bakım kayıtları (kilo ölçümleri, aşılar, ilaç planları, veteriner ziyaretleri, mama, aktivite) ve her kaydı hangi bakım verenin eklediği.</li>
+  <li><strong>Bakım ekibiniz:</strong> eklediğiniz kişilerin adları ve rolleri ile ekibe katılmayı sağlayan davet kodu.</li>
+  <li><strong>Tercihler:</strong> dil, hatırlatıcı saatleri ve günlük hatırlatıcıların açık olup olmadığı.</li>
+</ul>
+
+<h2>Nerede saklanır</h2>
+<p>Her şey önce cihazınızda durur. Pello'nun hesabı ve kendine ait bir sunucusu yoktur.</p>
+<p>iCloud yedeklemesini açarsanız (isteğe bağlı, pet sekmesinden), kayıtlarınız Apple'ın CloudKit'i aracılığıyla <strong>kendi iCloud hesabınızda</strong> da saklanır; Pello hesabı ve şifresi yoktur. böylece yeni bir telefonda geri gelir. Bir bakım vereni davet ettiğinizde CloudKit, o pet'in kayıtlarını yalnızca davet ettiğiniz kişilerle paylaşır. Bu depolama Apple'ın iCloud koşullarına tabidir.</p>
+
+<h2>Pello'ya Sor</h2>
+<p>Pello'ya Sor, Pello Premium'un bir parçasıdır. Bir soru sorduğunuzda uygulama; soruyu, dili, asistanın ihtiyaç duyduğu kayıt bölümlerini ve rastgele bir hesap kimliğini <strong>bizim proxy'mize</strong> (bir Cloudflare Worker) ve oradan yanıtı üreten <strong>Google'ın Gemini API'sine</strong> gönderir. Bu kimliğin ötesinde sizi veya cihazınızı tanımlayan hiçbir şey gönderilmez ve yanıtlar reklam için kullanılmaz. Proxy kayıtlarınızın bir kopyasını tutmaz.</p>
+
+<h2>Satın almalar</h2>
+<p>Abonelikler Apple üzerinden ödenir; Pello kartınızı veya Apple ID'nizi görmez. Uygulamanın Premium'un açık olup olmadığını bilmesi için <strong>RevenueCat</strong> satın alma makbuzunu ve hesap kimliğini alır.</p>
+
+<h2>Konum, fotoğraflar, bildirimler</h2>
+<ul>
+  <li><strong>Konum:</strong> yalnızca yakındaki veteriner kliniklerini ararken. Arama, yaklaşık konumunuzla Apple Haritalar (MapKit) tarafından yapılır ve Pello konumu saklamaz.</li>
+  <li><strong>Fotoğraflar ve kamera:</strong> yalnızca pet'inizin fotoğrafını seçtiğinizde veya çektiğinizde. Fotoğraf pet'in kaydının bir parçası olur.</li>
+  <li><strong>Bildirimler:</strong> hatırlatıcılar cihazınızda planlanır. Bakım ekibi bildirimleri, bir cihaz jetonu kullanan Apple CloudKit üzerinden gelir; Pello bunu başka bir amaçla kullanmaz.</li>
+</ul>
+
+<h2>Pello'nun asla yapmadıkları</h2>
+<p>Reklam yok, diğer uygulama ve sitelerde izleme yok, analitik veya çökme raporlama aracı yok, veri satışı yok. Uygulama sizinle ilgili hiçbir kişisel bilgi istemez — bir bakım verenin adı olarak siz yazmadıkça adınızı bile.</p>
+
+<h2>Seçimleriniz ve verileri silme</h2>
+<p>Tek tek kayıtları uygulamada silebilirsiniz (kaydı açın, ardından Sil). Bir pet'i kaldırmak kayıtlarını cihazdan siler. iCloud yedeklemesini açtıysanız iCloud'daki kopyayı iOS Ayarlar → Apple ID'niz → iCloud → Hesap Depolamayı Yönet → Pello yolundan kaldırabilirsiniz. Uygulamayı silmek telefonda sakladığı her şeyi siler. Sizinle ilgili elimizde kalan bir şeyin silinmesi için bize yazın, yaparız.</p>
+
+<h2>Çocuklar</h2>
+<p>Pello 13 yaş altı çocuklara yönelik değildir ve bilerek onlardan veri toplamaz.</p>
+
+<h2>Değişiklikler</h2>
+<p>Bu politikada önemli bir değişiklik olursa uygulama ya da App Store sayfası bunu bildirir.</p>
+
+<h2>İletişim</h2>
+<p>Gizlilikle ilgili sorular: <a href="mailto:alparslann95@gmail.com">alparslann95@gmail.com</a></p>
+</div>
+
+<div data-lang-block="es">
+<h1>Pello — Política de privacidad</h1>
+<p class="updated">Última actualización: 20 de septiembre de 2026</p>
+<p>Pello es una app de cuidado de mascotas: una cronología compartida con los registros de salud y cuidados de tu mascota, recordatorios y un asistente que responde desde esos registros. Esta página explica qué datos maneja la app, dónde se guardan y qué puedes hacer al respecto.</p>
+
+<h2>Qué guarda la app</h2>
+<ul>
+  <li><strong>Los registros de tu mascota:</strong> perfil (foto, nombre, especie, raza, cumpleaños, sexo, peso, alergias, microchip, notas), entradas de salud y cuidados (peso, vacunas, planes de medicación, visitas al veterinario, comida, actividad) y qué cuidador anotó cada una.</li>
+  <li><strong>Tu equipo de cuidado:</strong> los nombres y roles de las personas que añades y el código de invitación que las une.</li>
+  <li><strong>Preferencias:</strong> el idioma, las horas de los recordatorios y si están activados.</li>
+</ul>
+
+<h2>Dónde se guardan</h2>
+<p>Todo empieza en tu dispositivo. Pello no tiene cuenta ni servidor propio.</p>
+<p>Si activas la copia en iCloud (opcional, desde la pestaña de tu mascota), tus registros también se guardan en <strong>tu propio iCloud</strong> mediante CloudKit de Apple, para que vuelvan en un teléfono nuevo. No hay cuenta ni contraseña de Pello. Cuando invitas a un cuidador, CloudKit comparte los registros de esa mascota solo con quien invitaste. Ese almacenamiento se rige por las condiciones de iCloud de Apple.</p>
+
+<h2>Pregunta a Pello</h2>
+<p>Pregunta a Pello forma parte de Pello Premium. Cuando haces una pregunta, la app envía la pregunta, el idioma, las partes de los registros que el asistente necesita y un identificador de cuenta aleatorio a <strong>nuestro proxy</strong> (un Cloudflare Worker) y de allí a la <strong>API Gemini de Google</strong>, que produce la respuesta. No se envía nada que te identifique a ti o a tu dispositivo más allá de ese identificador, y las respuestas no se usan para publicidad. El proxy no guarda copia de tus registros.</p>
+
+<h2>Compras</h2>
+<p>Las suscripciones se pagan a través de Apple y Pello nunca ve tu tarjeta ni tu Apple ID. <strong>RevenueCat</strong> recibe el recibo de compra y el identificador de cuenta para que la app sepa si Premium está activo.</p>
+
+<h2>Ubicación, fotos, notificaciones</h2>
+<ul>
+  <li><strong>Ubicación:</strong> solo al buscar clínicas veterinarias cercanas. La búsqueda la hace Apple Maps (MapKit) con tu posición aproximada y Pello no la guarda.</li>
+  <li><strong>Fotos y cámara:</strong> solo al elegir o hacer la foto de tu mascota. La foto pasa a formar parte de su registro.</li>
+  <li><strong>Notificaciones:</strong> los recordatorios se programan en tu dispositivo. Las notificaciones del equipo llegan por CloudKit de Apple, que usa un token del dispositivo; Pello no lo usa para nada más.</li>
+</ul>
+
+<h2>Lo que Pello nunca hace</h2>
+<p>Sin publicidad, sin seguimiento entre apps o sitios, sin herramientas de analítica o de informes de fallos, y sin vender datos. La app no pide información personal tuya: ni tu nombre, salvo que lo escribas como nombre de un cuidador.</p>
+
+<h2>Tus opciones y borrar datos</h2>
+<p>Puedes borrar registros uno a uno en la app (abre el registro y pulsa Eliminar). Quitar una mascota borra sus registros del dispositivo. Si activaste la copia en iCloud, la copia en tu iCloud se puede borrar en Ajustes de iOS → tu Apple ID → iCloud → Gestionar almacenamiento → Pello. Borrar la app elimina todo lo que guardaba en el teléfono. Para que borremos algo que tengamos sobre ti, escríbenos y lo haremos.</p>
+
+<h2>Menores</h2>
+<p>Pello no está dirigida a menores de 13 años y no recoge datos de ellos a sabiendas.</p>
+
+<h2>Cambios</h2>
+<p>Si esta política cambia de forma relevante, lo dirá la app o la ficha de la App Store.</p>
+
+<h2>Contacto</h2>
+<p>Dudas sobre privacidad: <a href="mailto:alparslann95@gmail.com">alparslann95@gmail.com</a></p>
+</div>
+
+<div data-lang-block="de">
+<h1>Pello — Datenschutzerklärung</h1>
+<p class="updated">Zuletzt aktualisiert: 20. September 2026</p>
+<p>Pello ist eine App für die Pflege von Haustieren: eine gemeinsame Zeitleiste mit Gesundheits- und Pflegeeinträgen, Erinnerungen und ein Assistent, der aus diesen Einträgen antwortet. Diese Seite erklärt, welche Daten die App verarbeitet, wo sie liegen und was du tun kannst.</p>
+
+<h2>Was die App speichert</h2>
+<ul>
+  <li><strong>Die Einträge deines Tiers:</strong> Profil (Foto, Name, Art, Rasse, Geburtstag, Geschlecht, Gewicht, Allergien, Mikrochip, Notizen), Gesundheits- und Pflegeeinträge (Gewicht, Impfungen, Medikamentenpläne, Tierarztbesuche, Futter, Aktivität) und wer welchen Eintrag gemacht hat.</li>
+  <li><strong>Dein Betreuungsteam:</strong> Namen und Rollen der Personen, die du hinzufügst, und der Einladungscode, der sie verbindet.</li>
+  <li><strong>Einstellungen:</strong> Sprache, Erinnerungszeiten und ob die täglichen Erinnerungen an sind.</li>
+</ul>
+
+<h2>Wo sie liegen</h2>
+<p>Alles beginnt auf deinem Gerät. Pello hat kein Konto und keinen eigenen Server.</p>
+<p>Wenn du das iCloud-Backup einschaltest (optional, im Tier-Tab), liegen deine Einträge zusätzlich in <strong>deiner eigenen iCloud</strong> über Apples CloudKit, damit sie auf einem neuen Telefon zurückkommen. Ein Pello-Konto und ein Passwort gibt es nicht. Wenn du eine Person einlädst, teilt CloudKit die Einträge dieses Tiers nur mit den eingeladenen Personen. Für diese Speicherung gelten Apples iCloud-Bedingungen.</p>
+
+<h2>Frag Pello</h2>
+<p>Frag Pello gehört zu Pello Premium. Bei einer Frage sendet die App die Frage, die Sprache, die dafür nötigen Teile der Einträge und eine zufällige Konto-Kennung an <strong>unseren Proxy</strong> (einen Cloudflare Worker) und von dort an <strong>Googles Gemini-API</strong>, die die Antwort erzeugt. Über diese Kennung hinaus wird nichts gesendet, was dich oder dein Gerät benennt, und die Antworten werden nicht für Werbung genutzt. Der Proxy behält keine Kopie deiner Einträge.</p>
+
+<h2>Käufe</h2>
+<p>Abos werden über Apple bezahlt; Pello sieht weder deine Karte noch deine Apple-ID. <strong>RevenueCat</strong> erhält den Kaufbeleg und die Konto-Kennung, damit die App weiß, ob Premium aktiv ist.</p>
+
+<h2>Standort, Fotos, Mitteilungen</h2>
+<ul>
+  <li><strong>Standort:</strong> nur bei der Suche nach Tierarztpraxen in der Nähe. Die Suche macht Apple Maps (MapKit) mit deiner ungefähren Position; Pello speichert sie nicht.</li>
+  <li><strong>Fotos und Kamera:</strong> nur wenn du das Foto deines Tiers auswählst oder aufnimmst. Das Foto wird Teil seines Eintrags.</li>
+  <li><strong>Mitteilungen:</strong> Erinnerungen werden auf deinem Gerät geplant. Team-Mitteilungen kommen über Apples CloudKit, das ein Geräte-Token nutzt; Pello verwendet es für nichts anderes.</li>
+</ul>
+
+<h2>Was Pello nie tut</h2>
+<p>Keine Werbung, kein Tracking über andere Apps oder Websites, keine Analyse- oder Absturzberichtsdienste und kein Verkauf von Daten. Die App fragt keine persönlichen Angaben über dich ab — nicht einmal deinen Namen, außer du tippst ihn als Namen einer Betreuungsperson ein.</p>
+
+<h2>Deine Möglichkeiten und Löschen</h2>
+<p>Einzelne Einträge kannst du in der App löschen (Eintrag öffnen, dann Löschen). Ein Tier zu entfernen löscht seine Einträge vom Gerät. Wenn du das iCloud-Backup eingeschaltet hast, kannst du die Kopie in deiner iCloud unter iOS-Einstellungen → deine Apple-ID → iCloud → Speicher verwalten → Pello entfernen. Die App zu löschen entfernt alles, was sie auf dem Telefon behalten hat. Wenn wir etwas über dich löschen sollen, schreib uns, und wir tun es.</p>
+
+<h2>Kinder</h2>
+<p>Pello richtet sich nicht an Kinder unter 13 Jahren und erhebt wissentlich keine Daten von ihnen.</p>
+
+<h2>Änderungen</h2>
+<p>Ändert sich diese Erklärung wesentlich, sagen es die App oder der App-Store-Eintrag.</p>
+
+<h2>Kontakt</h2>
+<p>Fragen zum Datenschutz: <a href="mailto:alparslann95@gmail.com">alparslann95@gmail.com</a></p>
+</div>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('[data-lang-block]').forEach(function (el) {
+    el.classList.toggle('active', el.getAttribute('data-lang-block') === lang);
+  });
+  document.querySelectorAll('.langbar button').forEach(function (b) {
+    b.classList.toggle('active', b.getAttribute('data-lang') === lang);
+  });
+  document.documentElement.lang = lang;
+}
+var preferred = (navigator.language || 'en').slice(0, 2);
+setLang(['en', 'tr', 'es', 'de'].indexOf(preferred) >= 0 ? preferred : 'en');
+</script>
+</body>
+</html>
